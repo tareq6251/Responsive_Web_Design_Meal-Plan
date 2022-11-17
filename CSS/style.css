@@ -1,0 +1,655 @@
+/* common css link start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration:none;
+    display: inline-block;
+}
+ul{
+    list-style-type: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* common css link end */
+
+/* nav section start  */
+#nav_section{
+    background-color: #ffece1;
+    box-shadow: 0px 2px 5px rgba(164,127,116,.21);
+    z-index: 999;
+    position: relative;
+}
+#nav_section .container{
+    display: flex;
+    align-items: center;
+}
+#nav_section #logo{
+    width:10%;
+}
+#nav_section #menu{
+    width: 65%;
+    
+}
+#nav_section #menu ul{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#nav_section #menu ul li a{
+    color: #388f70;
+    font-size: 19px;
+    font-weight: 400;
+    padding: 50px 20px;
+}
+#nav_section #extra-menu{
+    width: 25%;
+}
+#nav_section #extra-menu ul{
+display: flex;
+}
+#nav_section #extra-menu ul li a{
+    color: #ffece1;
+    font-size: 19px;
+    font-weight: 800;
+    background-color: #388f70;
+    padding: 9px 20px;
+    border-radius:15px;
+    
+}
+#nav_section #extra-menu ul li i{
+    color: #388f70;
+    font-size: 19px;
+    padding: 9px;
+}
+/* nav section end  */
+
+/* banner section start  */
+#banner_section{
+    background-color:#ffece1;
+}
+#banner_section .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+#banner_section .container #banner_img{
+    width:50%;
+    padding: 142px 0px 76px;
+    
+}
+#banner_section .container #banner_item{
+    width: 50%;
+    padding: 200px 0px 100px;
+    margin-left: auto;
+}
+#banner_section .container #banner_img img{
+    width: 100%;
+    margin-left:-80px;
+}
+
+#banner_section .container #banner_img h4{
+    color: #388f70;
+    font-size:19px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: -110px;
+    margin-bottom: 10px     ;
+}
+
+#banner_section .container #banner_img p{
+    color: #388f70;
+    text-align: center;
+    margin-left: -110px;
+}
+   
+#banner_section .container #banner_item .item_info h1{
+    color: #dd7017;
+    font-size:80px;
+    font-weight: 700;
+
+}
+#banner_section .container #banner_item .item_info a{
+    color: #388f70;
+    font-size: 19px;
+    font-weight: 700;
+    border: 3px solid #388f70;
+    border-radius: 15px;
+    padding:12px 14px;
+   margin-right: 20px;
+}
+#banner_section .container #banner_item .item_info a:hover{
+   color: #fff4ee;
+   background: rgb(56,143,112); 
+   transition:.6s;
+}
+#banner_section .container #banner_item .item_info .row{
+    background-color: #dd7017;
+    border-radius:30px;
+    width: 700px;
+    margin-top: 74px;
+
+}
+#banner_section .container #banner_item .item_info .row div{
+    width: 20%;
+    text-align: center;
+}
+#banner_section .container #banner_item .item_info .row div:last-child{
+    text-align: left;
+    padding: 7px;
+
+}
+#banner_section .container #banner_item .item_info .row div:last-child{
+    margin: auto;
+}
+#banner_section{
+    position: relative;
+    z-index: 1;
+}
+#banner_section #overlay-2{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+    
+}
+#banner_section{
+    position: relative;
+    z-index: 1;
+}
+#banner_section #overlay-1{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    
+}
+/* banner section  end  */
+ 
+
+ 
+/* our fevorites section css start  */
+#our_fevorites {
+    background-color: #388f70;
+}
+#our_fevorites .container{
+    padding: 122px 0px 122px;       
+}
+#our_fevorites .container #hedding h2{
+    font-size: 80px;
+    font-weight: 700;
+    color: #ffece1;
+}
+#our_fevorites .container #hedding p{
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffece1;
+}
+#our_fevorites .container .row div{
+    background-color: #ffebe1;
+    margin-right: 25px;
+    border-radius: 20px;
+    text-align:center;
+    padding:70px;
+    width: 31%;
+    
+}
+#our_fevorites .container .row div img{
+    margin-left:-35px; 
+}
+#our_fevorites .container .row {
+    margin-top:72px;
+    
+}
+/* our fevorites section css end  */
+
+
+ 
+/* order section css start  */
+#order{
+    background-color: #ffece1;
+    position: relative;
+    z-index: 1;
+}
+#order #order_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:-1;
+}
+#order .container .row #order_img{
+    width: 45%;
+    margin: 130px 0px 100px;
+    padding-left: 20px;
+}
+#order .container .row #order_img img{
+    width: 100%;
+    
+}
+#order .container .row #order_item{
+    width: 55%;
+    padding-left: 80px;
+    margin: 200px 0px 150px;
+   
+}
+#order .container .row #order_item p:first-child{
+    color: #388f70;
+    font-size: 19px;
+    font-weight: 700;
+}
+#order .container .row #order_item h2{
+    color:#dd7017;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 120px;
+}
+#order .container .row #order_item p{
+    color: #388f70;
+    font-size: 19.4px;
+    font-weight: 400;
+    text-align:justify;
+}
+#order .container .row #order_item #order_now{
+    display: flex;
+    margin-top:48px ;
+}
+#order .container .row #order_item #order_now img{
+    width: 100%;    
+}
+#order .container .row #order_item #order_now #img-1{
+    padding-right: 11px;
+}
+#order .container .row #order_item #order_now #img-2{
+    padding-left: 11px;
+}
+#order .container .row #order_item #order_now a:last-child{
+    padding-left: 11px;
+}
+#order .container .row #order_item #order_now a{
+    color: #fff4ee;
+    font-size: 19px;
+    font-weight: 700;
+    background-color: #388f70;
+    padding: 16px 17px;
+    border-radius: 15px;
+    margin-top:-60PX;
+}
+/* order section css end  */
+
+
+ 
+/* recipes section css start  */
+#recipes{
+    background-color: #ffebe1;
+    position: relative;
+    z-index: 1;
+}
+#recipes #recipes_overlay{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+#recipes #see_recipe{
+   width: 55%;
+   margin: 130px 0px 100px;
+   
+}
+#recipes #recipe_img{
+    width: 45%;
+    margin: 110px 0px 100px;
+    padding-right: 20px;
+    padding-left:20px;
+}
+#recipes #recipe_img img{
+    width: 100%;
+    
+}
+#recipes #see_recipe p{
+    color: #388f70;
+    font-size:19px;
+    font-weight: 700;
+}
+#recipes #see_recipe h2{
+    color: #dd7017;
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom:40px;
+}
+#recipes #see_recipe .row div{
+    width: 50%;
+    padding-right: 34px;
+    padding-bottom: 32px;
+}
+#recipes #see_recipe .row img{
+    display: block;
+}
+#recipes #see_recipe .row a{
+    color: #fff4ee;
+    font-size:19px;
+    font-weight: 700;
+    background-color:#388f70;
+    padding: 16px 17px;
+    border-radius: 15px;
+    margin-top:-20px;
+}
+
+/* recipes section css end  */
+
+
+ 
+/* process section css start  */
+#process_section {
+  background-color: #388f70;
+}
+#process_section .container{
+    padding: 100px 0px 100px;
+}
+#process_section .container #process_header_item h2{
+    color: #ffece1;
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+#process_section .container #process_header_item{
+    margin-bottom: 70px;
+
+}
+#process_section .container #process_header_item p{
+    color: #ffece1;
+    font-size: 17px;
+    font-weight: 700;
+
+}
+#process_section .container #process_item .item_div{
+    color: #dd7017;
+    background-color: #ffece1;
+    width: 26%;
+    text-align: center;
+    padding: 40px 0px 25px;  
+    border-radius: 15px; 
+}
+#process_section .container #process_item .item_div img{
+    padding: 70px 0px 70px;
+}
+#process_section .container #process_item h4{
+    font-size: 23px;
+    font-weight: 700;
+}
+#process_section .container #process_item p{
+    font-size: 19px;
+    font-weight: 400;
+}
+#process_section .container #process_item .item_icon{
+   width: 10%;
+   position: relative;
+   display: block;
+   margin: auto;
+   text-align: center;
+}
+/* process section css end  */
+
+
+ 
+/* meal plen section css start  */
+
+#meal_plen_section{
+    background-color: #ffece1;
+    position: relative;
+    z-index: 1;
+}
+#meal_plen_section #meal_plen_overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50px;
+    z-index: -1;
+    height: 965px;
+    width: 960px;
+
+ } 
+ #meal_plen_section::after{
+    content: "";
+    width: 27%;
+    height: 100%;
+    background-color: #dd6f17;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius:20px ;
+    z-index: -1;
+    margin-right: -20px;
+ }
+
+#meal_plen_section .container .row #meal_plen_item{
+    width: 50%;
+    padding: 230px 10px 230px 0px;
+}
+
+#meal_plen_section .container .row #meal_plen_img{
+    width: 50%;
+    padding: 174px 0px 110px;
+    margin-top: -90px;
+}
+#meal_plen_section .container .row #meal_plen_img #icon{
+    margin-left: auto;
+    display: block;
+}
+#meal_plen_section .container .row #meal_plen_img #pera{
+    text-align: end;
+    font-size: 19px;
+    font-weight: 700;
+    color: #ffece1;
+    margin-top: 10px;
+}
+#meal_plen_section .container .row #meal_plen_item h2{
+    color: #dd7017;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1;
+
+}
+#meal_plen_section .container .row #meal_plen_item p{
+    color: #388f70;
+    font-size: 18.7px;
+    font-weight:400;
+    text-align: justify;
+    margin-top: 35px;
+
+}
+#meal_plen_section .container .row #meal_plen_item a{
+    color: #388f70;
+    font-size: 19px;
+    font-weight: 700;
+    border: 3px solid #388f70;
+    border-radius: 15px;
+    padding:12px 14px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+#meal_plen_section .container .row #meal_plen_item a:hover{
+   color: #fff4ee;
+   background: rgb(56,143,112); 
+   transition:.6s;
+}
+
+/* meal plen section css end  */
+
+
+ 
+/* people comment section css start  */
+#people_comment_section{
+    background-color: #388f70;
+}
+#people_comment_section .container{
+    padding: 100px 0px 150px;
+}
+#people_comment_section .container h2{
+    color: #ffece1;
+    font-size: 80px;
+    font-weight: 700;
+}
+#people_comment_section .container .row{
+    justify-content: space-between;
+} 
+#people_comment_section .container .row div{
+  width: 27%;
+  text-align: center;
+  padding: 70px 50px 0px 0px;
+   
+}
+
+/* people comment section css end  */
+
+
+ 
+/* made section css start  */
+#made_section{
+    background-color: #ffebe1;
+    position: relative;
+    padding: 350px 0px 320px;
+}
+#made_section #overlay-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#made_section #overlay-2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 1005px;
+}
+#made_section .row #made_item{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+#made_section .row #made_item h2{
+    margin-bottom: 10px;
+    line-height: 80px;
+}
+#made_section .row #made_item p{
+    margin-bottom: 30px;
+}
+#made_section .row #made_img-1,#made_section .row #made_img-2{
+     position: absolute;
+}
+#made_section .row #made_img-1 {
+     left: 0;
+     bottom:15px;
+} 
+#made_section .row #made_img-2 {
+     top: 65px;
+     right: 0;
+} 
+/* 
+#made_section .row .made_item{
+    width: 50%;
+} */
+#made_section .row #made_item h2{
+    color: #dd7017;
+    font-size: 80px;
+    font-weight: 700;
+}
+#made_section .row #made_item p{
+    color: #388f70;
+    font-size: 19px;
+    font-weight: 400;
+}
+#made_section .row #made_item a{
+    color: #388f70;
+    font-size: 19px;
+    font-weight: 700;
+    border: 3px solid #388f70;
+    border-radius: 15px;
+    padding:12px 14px;
+    margin-right: 20px;
+}
+#made_section .row #made_item a:hover{
+   color: #fff4ee;
+   background: rgb(56,143,112); 
+   transition:.6s;
+}
+/* made section css end  */
+
+
+ 
+/* join section css start  */
+#join_section{
+    background-color:#388f70;
+}
+#join_section .container{
+    padding: 175px 0px 125px;
+}
+#join_section .container #list {
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+#join_section .container #list ul{
+    width: 20%;
+    color: #ffebe1;
+}
+#join_section .container #list ul:last-child{
+    width: 30%;
+}
+#join_section .container #list ul li h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+#join_section .container #list ul  .list-item{
+    font-size: 19px;
+    line-height: 35.24px;
+}
+#join_section .container #list ul input{
+    width: 316px;
+    padding: 12px 0px 12px 10px;
+    color:#ffebe1 ;
+    background:rgb(56,143,112);
+    font-size: 19px;
+    border: 3px solid #ffebe1;
+    border-radius: 15px;
+    margin-top: 5px;
+} 
+#join_section .container #list ul button{
+    color: #388f70;
+    padding: 14px 10px;
+    font-size: 19px;
+    font-weight: 700;
+    background: rgb(225,236,225);
+    border-radius: 15px;
+    margin-top: 19px;
+
+}
+#join_section .container #footer_item #footer_item-1{
+    width: 80%;
+}
+#join_section .container #footer_item #footer_item-2{
+    width: 20%;
+   text-align: end;
+}
+#join_section .container #footer_item p{
+    color: #ffebe1;
+    font-size: 19px;
+    font-weight: 700;
+}
+#join_section .container #footer_item i{
+    color:#ffebe1 ;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+/* join section css end  */
